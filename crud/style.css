@@ -1,0 +1,112 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.user-page {
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.user-page .container {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.user-page .form-group {
+    margin-bottom: 18px;
+}
+
+.user-page label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.user-page .form-control {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+.user-page .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+.user-page .btn {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user-page .btn:hover {
+    background-color: #0b5ed7;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table th,
+.table td {
+    padding: 15px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.btn_dis {
+    background-color: #0d6efd;
+    padding: 10px 18px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_dis a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn_update,
+.btn_delete {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_update {
+    background-color: #0d6efd;
+}
+
+.btn_delete {
+    background-color: #dc3545;
+}
+
+
+
